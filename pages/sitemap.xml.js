@@ -5,11 +5,11 @@ function generateSiteMap(posts) {
    <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
      <!--We manually set the two URLs we know already-->
      <url>
-       <loc>https://jsonplaceholder.typicode.com</loc>
+     <loc>/pages/sitemap.xml</loc>
+     <changefreq>daily</changefreq>
+     <priority>0.7</priority>
      </url>
-     <url>
-       <loc>https://jsonplaceholder.typicode.com/guide</loc>
-     </url>
+    
      ${posts
 				.map(({ id }) => {
 					return `
