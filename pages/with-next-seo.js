@@ -28,6 +28,10 @@ function WithNextSeo() {
 					site: '@avneesh0612',
 					cardType: 'summary_large_image'
 				}} // define how the twitter card should look like on Twitter
+				additionalMetaTags={{
+					name: 'google-site-verification',
+					content: '9hocT_Fs4aEpbm5BgV8lyAsTQJaSJLZd7Ll9DaY1wnk'
+				}}
 			/>
 			<h1>With Next SEO</h1>
 		</>

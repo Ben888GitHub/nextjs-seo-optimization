@@ -7,7 +7,11 @@ function SeoTags() {
 				<title>SEO Tags</title>
 				<meta
 					name="description"
-					content="Check out this seo superpower from Next js"
+					content="seo superpower from Next js check up"
+				/>
+				<meta
+					name="google-site-verification"
+					content="9hocT_Fs4aEpbm5BgV8lyAsTQJaSJLZd7Ll9DaY1wnk"
 				/>
 			</Head>
 			<br />
