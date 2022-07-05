@@ -5,13 +5,13 @@ function generateSiteMap(posts) {
    <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
      <!--We manually set the two URLs we know already-->
      <url>
-     <loc>/pages/sitemap.xml</loc>
+     <loc>https://nextjs-seo-optimization.vercel.app</loc>
      <changefreq>daily</changefreq>
      <priority>0.7</priority>
      </url>
     
      ${posts
-				.map(({ id }) => {
+				?.map(({ id }) => {
 					return `
        <url>
            <loc>${`${EXTERNAL_DATA_URL}/${id}`}</loc>
