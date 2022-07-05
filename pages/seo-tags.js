@@ -16,6 +16,7 @@ function SeoTags() {
 			</Head>
 			<br />
 			<h1>SEO Tags</h1>
+			<h1>Check out this seo superpower from Next js</h1>
 		</div>
 	);
 }
